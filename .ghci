@@ -1,0 +1,4 @@
+:set -XOverloadedStrings
+
+:set prompt  "> "
+:set prompt2 "| "

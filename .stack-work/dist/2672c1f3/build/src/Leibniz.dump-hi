@@ -1,0 +1,42 @@
+
+==================== FINAL INTERFACE ====================
+2016-10-31 14:38:29.4952293 UTC
+
+interface Leibn_4HbkS7GG3563vKXzubBV4Y:Leibniz 7103
+  interface hash: b7b746fb3271e5e32e624bb6d9e1b104
+  ABI hash: b48071d3d3ebbe6eca12187aeb0c3c38
+  export-list hash: 497e62aea9a143dd94095099cc7bfd1d
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 7afdfeeacb16b967dde918e26d3a28b6
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Leibniz.Constants.π
+  Leibniz.Constants.τ
+  Leibniz.Trigonometry.deg
+  Leibniz.Trigonometry.rad
+module dependencies: Leibniz.Constants Leibniz.Trigonometry
+package dependencies: base-4.8.2.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:GHC.Generics
+import  -/  Leibniz.Constants c3eda7d6d261b91c634329c3ce56de12
+  exports: 98098f3bea7ef6de66776abca2bb3ca3
+  π 3350d24a572facf86425a151b1827778
+  τ 8fbf34ecb15da9d8b404936cf63227d4
+import  -/  Leibniz.Trigonometry 87ed8bb6c5b9d0c13d64b1aaef10019e
+  exports: eb3fa3a0b27e7b39f16eac8d763025e6
+  deg 8527b97e8d19a9f6f4c1fd5ee3140f54
+  rad 56c1908cec322ec2c1dce1aaa8eaa287
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

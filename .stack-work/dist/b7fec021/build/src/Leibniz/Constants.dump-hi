@@ -1,0 +1,76 @@
+
+==================== FINAL INTERFACE ====================
+2017-05-11 21:05:17.1791185 UTC
+
+interface Leibniz-0.1.0.0-DW2L1DprBeSKynMxEzKTO7:Leibniz.Constants 8001
+  interface hash: c4c4d95b007fda780ce5264bac34b194
+  ABI hash: 8c5ea30d6c9648b82b0b5435af34d6b6
+  export-list hash: dc0bbd9fdc5691eeaf96e02410df3a15
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 5b70116131bee006003f8cde504ef3d4
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Leibniz.Constants.π
+  Leibniz.Constants.τ
+module dependencies:
+package dependencies: base-4.9.0.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+family instance modules: base-4.9.0.0:Control.Applicative
+                         base-4.9.0.0:Data.Either base-4.9.0.0:Data.Functor.Const
+                         base-4.9.0.0:Data.Monoid base-4.9.0.0:Data.Type.Equality
+                         base-4.9.0.0:GHC.Generics base-4.9.0.0:GHC.IO.Exception
+                         base-4.9.0.0:GHC.TypeLits
+import  -/  base-4.9.0.0:GHC.Float a46e197015eefaa013d7004e58481c54
+import  -/  base-4.9.0.0:GHC.Num f0aed3315b3ed1b330b71fc4148a5581
+import  -/  base-4.9.0.0:Prelude 2d9cd8b0ec3d728f62b734df888d2e34
+a401f0c4478c192150bda0a12df12e2d
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Leibniz.Constants.$trModule2
+                   Leibniz.Constants.$trModule1) -}
+4a989d664028bc01ab2ee35e797dc61f
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Leibniz.Constants"#) -}
+f21e034b3b627854cda6ac85eb67ecab
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "Leibniz-0.1.0.0-DW2L1DprBeSKynMxEzKTO7"#) -}
+3f0b0caa5f12c0d3c21f1d058d5f803c
+  π :: GHC.Float.Floating f => f
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSLLLLLLLLLLLLLLLLLLLLL),U(A,U,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (0, True, True) GHC.Float.pi -}
+29c8f2f47574757d213ffe846ed897b4
+  τ :: GHC.Float.Floating f => f
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLLLLLLLLLLLLLLLLLLLLLL),U(1*U,1*U,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A)>,
+     Unfolding: (\ @ f ($dFloating :: GHC.Float.Floating f) ->
+                 let {
+                   $dFractional :: GHC.Real.Fractional f
+                   = GHC.Float.$p1Floating @ f $dFloating
+                 } in
+                 let {
+                   $dNum :: GHC.Num.Num f = GHC.Real.$p1Fractional @ f $dFractional
+                 } in
+                 GHC.Num.*
+                   @ f
+                   $dNum
+                   (GHC.Num.fromInteger @ f $dNum Leibniz.Constants.τ1)
+                   (GHC.Float.pi @ f $dFloating)) -}
+c28579c9805434a4011e88a7fbc0143f
+  τ1 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (2) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
